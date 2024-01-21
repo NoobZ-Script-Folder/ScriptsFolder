@@ -42,7 +42,6 @@ Frame.Parent = TextLabel
 Frame.Active = true
 Frame.BackgroundColor3 = Color3.fromRGB(31, 31, 31)
 Frame.BorderColor3 = Color3.fromRGB(31, 31, 31)
-Frame.Draggable = true
 Frame.Size = UDim2.new(0, 400, 0, 260)
 
 TextLabel_2.Parent = Frame
