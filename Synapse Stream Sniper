@@ -28,14 +28,14 @@ local TeleportService = game:GetService("TeleportService")
 Screenguini.Name = HttpService:GenerateGUID(false)
 Screenguini.Parent = game:GetService("CoreGui")
 
-Frame.Parent = TextLabel
+Frame.Parent = Screenguini
 Frame.Active = true
 Frame.BackgroundColor3 = Color3.fromRGB(31, 31, 31)
 Frame.BorderColor3 = Color3.fromRGB(31, 31, 31)
 Frame.Draggable = true
 Frame.Size = UDim2.new(0, 400, 0, 260)
 
-TextLabel.Parent = Screenguini
+TextLabel.Parent = Frame
 TextLabel.Active = true
 TextLabel.BackgroundColor3 = Color3.fromRGB(255, 170, 0)
 TextLabel.BorderColor3 = Color3.fromRGB(31, 31, 40)
