@@ -1,9 +1,9 @@
 -- Why Not Stalk Someone With This?
 -- [[[
-Copy It To Execute With An Loadstring
-👇👇👇
-loadstring(game:HttpGet("https://raw.githubusercontent.com/NoobZ-Script-Folder/ScriptsFolder/main/Synapse%20Stream%20Snipping"))()
-👆👆👆
+--Copy It To Execute With An Loadstring
+--👇👇👇
+-- loadstring(game:HttpGet("https://raw.githubusercontent.com/NoobZ-Script-Folder/ScriptsFolder/main/Synapse%20Stream%20Snipping"))()
+--👆👆👆
 --]]]
 
 -- Old Version: https://raw.githubusercontent.com/Acrillis/SynapseX/master/Synapse%20Scripts/StreamSniper.lua
