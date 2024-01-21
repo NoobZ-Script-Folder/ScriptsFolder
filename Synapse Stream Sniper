@@ -28,14 +28,7 @@ local TeleportService = game:GetService("TeleportService")
 Screenguini.Name = HttpService:GenerateGUID(false)
 Screenguini.Parent = game:GetService("CoreGui")
 
-Frame.Parent = Screenguini
-Frame.Active = true
-Frame.BackgroundColor3 = Color3.fromRGB(31, 31, 31)
-Frame.BorderColor3 = Color3.fromRGB(31, 31, 31)
-Frame.Draggable = true
-Frame.Size = UDim2.new(0, 400, 0, 260)
-
-TextLabel.Parent = Frame
+TextLabel.Parent = Screenguini
 TextLabel.Active = true
 TextLabel.BackgroundColor3 = Color3.fromRGB(255, 170, 0)
 TextLabel.BorderColor3 = Color3.fromRGB(31, 31, 40)
@@ -44,6 +37,13 @@ TextLabel.Font = Enum.Font.SourceSansLight
 TextLabel.Text = "Synapse X Stream Sniper"
 TextLabel.TextSize = 24.000
 TextLabel.Draggable = true
+
+Frame.Parent = TextLabel
+Frame.Active = true
+Frame.BackgroundColor3 = Color3.fromRGB(31, 31, 31)
+Frame.BorderColor3 = Color3.fromRGB(31, 31, 31)
+Frame.Draggable = true
+Frame.Size = UDim2.new(0, 400, 0, 260)
 
 TextLabel_2.Parent = Frame
 TextLabel_2.Active = true
