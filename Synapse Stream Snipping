@@ -43,6 +43,7 @@ TextLabel.Size = UDim2.new(0, 400, 0, 40)
 TextLabel.Font = Enum.Font.SourceSansLight
 TextLabel.Text = "Synapse X Stream Sniper"
 TextLabel.TextSize = 24.000
+TextLabel.Draggable = true
 
 TextLabel_2.Parent = Frame
 TextLabel_2.Active = true
